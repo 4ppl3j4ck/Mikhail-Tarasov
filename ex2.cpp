@@ -2,12 +2,10 @@
 using namespace std;
 int main()
 {
-   int farlong;
-   int x;
-   farlong = 220;
-   cout<<"Enter the distance in furlongs and convert it to yards:";
-   cout << endl;
-   cin >> x;
-   cout << x <<" farlong = " << farlong * x <<" yard" ;
+   int furlong;
+   int const yard(220);
+   cout << "Enter the distance in furlongs: ";
+   cin >> furlong;
+   cout << "yard = " << furlong * yard << endl;
    return 0;
 }
